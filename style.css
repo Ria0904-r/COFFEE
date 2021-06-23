@@ -1,0 +1,83 @@
+/* .container{
+  width: 100%;
+  height: 300px;
+  border: 2px solid red;
+  position: relative;
+
+}
+
+.myclass{
+  height:20%;
+  width: 24%;
+  background-color: yellow;
+  margin: 1px;
+  display: inline-block;
+}
+@media (min-width:320px) and (max-width:480px) {
+  .myclass{
+    background-color: green;
+    width: 98%
+  }
+
+} */
+body{
+  margin:0;
+}
+.coffee-header{
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  height: 100px;
+  width:100%;
+  background-color: #0a2d42;
+
+}
+.div-logo{
+  height: 100%;
+  text-align: center;
+  margin: 10px;
+  float:left;
+}
+.logo-text{
+  display: block;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+ color: white;
+}
+
+
+
+.coffee-link{
+  float: right;
+  height: 100%;
+}
+
+.coffee-link a{
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+ font-family: "Helvetica Neue";
+ padding-right: 20px;
+ padding-top: 15%;
+ display:inline-block;
+
+}
+
+.site-content{
+  position: absolute;
+  top: 78px;
+  width:100%;
+}
+.image-content{
+  background-image: url("background-image.png");
+  height: 700px;
+  width: 100%;
+  text-align: center;
+
+}
+.quote{
+  font-family: "Helvetica Neue";
+  color: white;
+  position: relative;
+  top: 10%;
+}
